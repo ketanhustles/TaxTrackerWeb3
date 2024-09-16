@@ -1,0 +1,69 @@
+/* About.css */
+
+/* About page styles */
+.about-content {
+  flex: 1; /* Set to take remaining available width */
+  max-width: 400px; /* Limit the max width of the content */
+  padding: 40px;
+  /* background-color: #333; */
+  background-color: #333;
+background-image: url("https://www.transparenttextures.com/patterns/inspiration-geometry.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  color: white;
+}
+
+.about-content h1 {
+  color: #3498db;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.about-content p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.about-content ul {
+  margin-bottom: 20px;
+}
+
+.about-content li {
+  list-style: disc;
+  margin-left: 20px;
+}
+
+.about-content a {
+  color: #3498db;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.about-content a:hover {
+  color: #e74c3c;
+  text-decoration: underline;
+}
+
+.about-container {
+  background-color: #333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image-container {
+  background-color: #333;
+  background-image: url("https://www.transparenttextures.com/patterns/inspiration-geometry.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+  flex: 1; /* Set to take remaining available width */
+  max-width: 400px; /* Limit the max width of the image */
+  margin-right: 20px;
+}
+
+img {
+  width: 100%;
+  height: auto; /* Set to auto to maintain aspect ratio */
+  border-radius: 5px;
+}

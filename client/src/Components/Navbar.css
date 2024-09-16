@@ -1,0 +1,102 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  background-image: url("https://www.transparenttextures.com/patterns/inspiration-geometry.png");
+  color: white;
+  padding: 10px 20px;
+  height: 70px;
+  margin-bottom: 50px;
+  font-size: 20px;
+}
+
+.company-name {
+  font-size: 40px;
+}
+
+.nav-content {
+  display: flex;
+  align-items: center;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-list li {
+  margin-left: 20px;
+}
+
+.nav-list li:first-child {
+  margin-left: 0;
+}
+
+.nav-list li a {
+  text-decoration: none;
+  
+  color: white;
+  background-color: #537190;
+  padding: 8px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.nav-list li a:hover {
+  background-color: #536543; /* Highlight color on hover */
+}
+
+/* Add these styles to your existing Navbar.css file 
+
+.walletAddress {
+margin-top: 20px;
+font-size: 20px;
+}
+
+button {
+margin-top: 10px;
+padding: 10px 20px;
+background-color: #333;
+color: #fff;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+}
+
+.accountDisplay, .balanceDisplay {
+margin-top: 20px;
+font-size: 18px;
+}
+
+.allocateFunds, .transferFunds {
+margin-top: 30px;
+}
+
+h4 {
+margin-bottom: 10px;
+}
+
+input {
+padding: 8px;
+margin-bottom: 10px;
+border: 1px solid #ccc;
+border-radius: 5px;
+width: 100%;
+}
+
+button {
+padding: 10px 20px;
+background-color: #333;
+color: #fff;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+}
+
+button:hover {
+background-color: #555;
+}
+*/

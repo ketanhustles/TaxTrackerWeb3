@@ -1,0 +1,31 @@
+/* Contact.css */
+
+/* Contact page styles */
+.contact-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    color: #333;
+  }
+  
+  .contact-content h1 {
+    color: #e74c3c;
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  .contact-content p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+  }
+  
+  .contact-details p {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #555;
+  }
+  

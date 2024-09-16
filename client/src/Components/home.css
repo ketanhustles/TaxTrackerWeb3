@@ -1,0 +1,257 @@
+h1{
+    text-align: center;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+.homeText {
+  overflow: hidden; 
+  white-space: nowrap; 
+  animation: typing 3s steps(40) 1s forwards; 
+}
+
+
+
+
+.home-content {
+  position: relative;
+  margin-top: 50px;
+}
+
+.button-group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.horizontal {
+  display: flex;
+}
+
+.button-group button {
+  margin: 0 10px;
+  padding: 12px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: #3498db;
+  color: #fff;
+  cursor: pointer;
+  position: relative;
+  transition: background-color 0.3s ease;
+}
+
+.button-group button:hover {
+  background-color: #2980b9;
+}
+
+.homeText{
+  color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Cute and Attractive Dropdown CSS */
+
+/* Home page styles */
+/* .home-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  
+  .home-dropdown {
+    margin-top: 20px;
+    position: relative;
+  }
+  
+  
+  .home-dropdown::after {
+    content: "\25BE"; 
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    transform: translateY(-50%);
+    font-size: 18px;
+    color: #fff;
+  }
+  
+  .home-dropdown select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    padding: 8px;
+    font-size: 16px;
+    border: 2px solid #3498db;
+    border-radius: 5px;
+    background-color: #3498db;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .home-dropdown select option {  
+    padding: 8px;
+    background-color: #fff;
+    color: #333;
+  }
+  
+  .home-dropdown select:hover,
+  .home-dropdown select:focus {
+    border-color: #e74c3c;
+  }
+  
+
+  .home-dropdown select:active {
+    border-color: #c0392b;
+  }
+  
+
+
+
+
+
+ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* home.css */
+
+/* Global styles */
+/* body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  } */
+  
+  /* Home page styles */
+  /* .home-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .home-list {
+    list-style: none;
+    display: flex;
+    
+    padding: 0;
+  }
+  
+  .home-list li {
+    margin: auto;
+  }
+  
+  .home-list li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    padding: 10px 20px;
+    background-color: antiquewhite;
+    border: 2px solid #3498db;
+    border-radius: 50px;
+    transition: background-color 0.2s ease;
+  }
+  
+  .home-list li a:hover {
+    background-color: black;
+    color: #fff;
+  }
+  
+  .home-dropdown {
+    margin-top: 20px;
+  }
+  
+  .home-dropdown select {
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .home-dropdown select option {
+    padding: 8px;
+  }
+  
+  h1 {
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 15px;
+  }
+  
+   */
