@@ -1,87 +1,84 @@
-# Track My Tax - Government Money Tracker
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TaxTrackerWeb3</title>
+</head>
+<body>
 
-Track My Tax is a web application built on web3, using TRUFFLE and REACTJS, to track government money and promote transparency in financial transactions.
+  <h1>TaxTrackerWeb3</h1>
+  <p>A Web3-based platform for tracking, calculating, and managing cryptocurrency-related taxes. This decentralized solution uses blockchain technology to ensure transparency and accuracy when tracking taxable events related to cryptocurrency transactions.</p>
 
-## Table of Contents
-- [Introduction](#introduction)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Troubleshooting](#troubleshooting)
-- [Contributing](#contributing)
+  <h2>Features</h2>
+  <ul>
+    <li><strong>Blockchain-based Tax Tracking</strong>: Automates the process of tracking and calculating crypto transactions to ensure accurate tax calculations.</li>
+    <li><strong>Real-Time Transaction Data</strong>: Fetches real-time transaction data from the blockchain to accurately assess taxable events.</li>
+    <li><strong>Tax Reports Generation</strong>: Generates tax reports that can be used for filing purposes, formatted for easy use with tax authorities.</li>
+    <li><strong>Multichain Support</strong>: Supports transactions across multiple blockchain networks like Ethereum, Binance Smart Chain, and others.</li>
+  </ul>
 
+  <h2>Tech Stack</h2>
+  <ul>
+    <li><strong>Blockchain</strong>: Ethereum, Binance Smart Chain (or any EVM-compatible network)</li>
+    <li><strong>Smart Contracts</strong>: Solidity</li>
+    <li><strong>Frontend</strong>: React.js</li>
+    <li><strong>Web3 Integration</strong>: Web3.js, Ethers.js</li>
+    <li><strong>Backend</strong>: Node.js (optional for certain features)</li>
+    <li><strong>Tax Calculation</strong>: Custom tax rules based on jurisdiction (can be modified as per user's requirements)</li>
+    <li><strong>Styling</strong>: Material-UI, CSS</li>
+    <li><strong>Testing</strong>: Hardhat, Mocha</li>
+  </ul>
 
-## Introduction
+  <h2>Installation</h2>
+  <h3>Prerequisites</h3>
+  <p>Ensure you have the following installed on your local machine:</p>
+  <ul>
+    <li>Node.js and npm</li>
+    <li>Truffle or Hardhat (for smart contract deployment)</li>
+    <li>MetaMask (or any Ethereum wallet) for interacting with the platform</li>
+  </ul>
 
-The Track My Tax project aims to provide a platform that enables citizens to monitor and track government financial transactions. By leveraging web3 technology and incorporating TRUFFLE and REACTJS, the application ensures a secure and decentralized environment.
+  <h3>1. Clone the Repository</h3>
+  <pre><code>git clone https://github.com/ketanhustles/TaxTrackerWeb3.git
+cd TaxTrackerWeb3</code></pre>
 
-## Installation
+  <h3>2. Install Dependencies</h3>
+  <pre><code>npm install</code></pre>
 
-To try out our project, follow these steps:
+  <h3>3. Compile Smart Contracts</h3>
+  <p>Using Hardhat (or Truffle):</p>
+  <pre><code>npx hardhat compile</code></pre>
 
-1. Clone the repository or download all the files.
+  <h3>4. Deploy Contracts</h3>
+  <p>You can deploy the smart contracts to a local or test Ethereum network:</p>
+  <pre><code>npx hardhat run scripts/deploy.js --network &lt;network-name&gt;</code></pre>
+  <p>Replace &lt;network-name&gt; with the desired network (e.g., ropsten, sepolia, localhost).</p>
 
-2. Navigate to the client folder and install the required dependencies by running the following command:
+  <h3>5. Run the DApp</h3>
+  <p>To run the frontend locally:</p>
+  <pre><code>npm start</code></pre>
+  <p>Access the app at <a href="http://localhost:3000">http://localhost:3000</a>.</p>
 
-   ```
-   npm install
-   ```
+  <h2>Usage</h2>
+  <ol>
+    <li>Connect your Ethereum wallet (MetaMask or any compatible wallet) to the DApp.</li>
+    <li>View your cryptocurrency transactions that are relevant for tax reporting.</li>
+    <li>Track gains/losses, calculate taxes, and generate a tax report.</li>
+    <li>Download the tax report for use with your local tax authorities.</li>
+  </ol>
 
-   Note: Ensure that you have npm (Node Package Manager) installed on your system before running the above command.
+  <h2>Contributing</h2>
+  <ol>
+    <li>Fork the repository.</li>
+    <li>Create a feature branch (<code>git checkout -b feature-branch</code>).</li>
+    <li>Commit your changes (<code>git commit -m 'Add new feature'</code>).</li>
+    <li>Push to the branch (<code>git push origin feature-branch</code>).</li>
+    <li>Create a new Pull Request.</li>
+  </ol>
 
-3. After installing the npm packages, start the application by running the following command:
+  <h2>License</h2>
+  <p>This project is licensed under the MIT License - see the <a href="LICENSE">LICENSE</a> file for details.</p>
 
-   ```
-   sudo npm start
-   ```
-
-   Note: Depending on your system's configuration, you might need to use `sudo` to run the application.
-
-4. Due to potential compatibility issues with newer versions, please ensure you have the correct version of `react-router-dom` installed by running the following command:
-
-   ```
-   npm install react-router-dom@5
-   ```
-
-   This step is crucial to avoid any potential errors during the execution of the application.
-
-## Usage
-
-Once the installation is complete and the application is running, you can access the Track My Tax platform through your web browser. The interface should be user-friendly and intuitive.
-
-As a user, you can explore government financial transactions, search for specific entries, and view detailed information about each transaction. The transparency of these financial records aims to foster public trust and promote accountability.
-
-## Troubleshooting
-
-If you encounter any errors during the installation or execution of the application, here are some tips:
-
-1. Ensure that you have the correct version of `react-router-dom` installed. Use the following command to install version 5:
-
-   ```
-   npm install react-router-dom@5
-   ```
-
-2. If the application shows an error, try running it multiple times. In some cases, certain components may require a few attempts to initialize correctly.
-
-3. Check the terminal or console output for any error messages, and try to identify the cause of the issue. If you encounter any difficulties, consider seeking help from the project's community or support channels.
-
-## Contributing
-
-We welcome contributions from the community to improve Track My Tax further. If you would like to contribute, please follow these steps:
-
-1. Fork the repository.
-
-2. Create a new branch for your feature or bug fix.
-
-3. Make your changes and commit them with descriptive commit messages.
-
-4. Push your changes to your forked repository.
-
-5. Submit a pull request to our main repository, explaining the changes you made.
-
-Our team will review your contribution and merge it if it aligns with the project's goals and standards.
-
-
-
-We appreciate your interest in our project and hope that Track My Tax proves to be a valuable tool in promoting financial transparency in government operations. Should you have any questions or feedback, please feel free to reach out to us. Happy tracking!
-
-*[Please note that the above content is a sample README file for illustrative purposes. You may need to modify it based on your actual project details and requirements.]*
+</body>
+</html>
